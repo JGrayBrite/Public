@@ -190,6 +190,7 @@ Function Install-Apps{
     ##Install Adobe and Chrome for all sites
     Install-Adobe
     Install-Chrome
+    Install-O365
     
     Switch ($SiteCode){
         "122" {

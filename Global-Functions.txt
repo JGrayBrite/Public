@@ -177,7 +177,7 @@ Function Set-ProtectionPolicy{
 }
 Function Update-WindowTitle ([String] $PassNumber) {
     Write-Host "Changing window title"
-    $host.ui.RawUI.WindowTitle = "$SiteCode Provisioning | $env:computername | Pass $PassNumber | Please Wait"
+    $host.ui.RawUI.WindowTitle = "Provisioning | $env:computername | Pass $PassNumber | Please Wait"
 }
 Function Start-PPKGLog ([String] $LogLabel) {
     Write-Host "Making a log file for debugging"

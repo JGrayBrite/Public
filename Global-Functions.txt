@@ -181,7 +181,7 @@ Function Update-WindowTitle ([String] $PassNumber) {
 }
 Function Start-PPKGLog ([String] $LogLabel) {
     Write-Host "Making a log file for debugging"
-        $LogPath = "C:\IT\" + $SiteCode + "-" + $LogLabel + ".log"
+        $LogPath = "C:\IT\" + $LogLabel + ".log"
         Start-Transcript -path $LogPath -Force -Append
 }
 Function Install-Apps{
